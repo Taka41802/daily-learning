@@ -46,3 +46,12 @@ try {
   console.log('finally');
 }
 
+throw文 //console.errorは見た目だけエラーっぽくする　throwは本当にエラーを起こせる
+throw 'error';
+
+// 文は5つの終わり方しかない
+// 普通に終わる
+// break文
+// return文
+// continue文
+// throw文
