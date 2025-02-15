@@ -24,3 +24,25 @@ const coffee = {
 for (const key in coffee) {
   console.log(key);
 }
+
+hello: {
+  break hello;
+}
+
+try-catch文 //構文エラーは無理
+try {
+  console.log(chocolate);
+} catch {
+  console.log('hello');
+}
+
+try-catch-finally文 //returnでも実行される非常に優先順位が高い
+try {
+  console.log('try');
+  console.log(chocolate);
+} catch {
+  console.log('catch');
+} finally {
+  console.log('finally');
+}
+
