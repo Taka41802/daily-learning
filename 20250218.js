@@ -13,3 +13,5 @@ sayHi = (name) => {
   sayHi = name => "Hi ${name}!";
 ・ディスについて違う？後に説明
 
+sayHi = (name) => "Hi ${name}!";
+console.log(sayHi()); //undefinedになる
